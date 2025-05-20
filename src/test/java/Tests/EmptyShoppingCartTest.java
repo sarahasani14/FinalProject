@@ -6,7 +6,7 @@ import Preconditions.TestPreconditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class T8_EmptyShoppingCart extends BaseTest {
+public class EmptyShoppingCartTest extends BaseTest {
     @Test
     public void emptyShppingCartTest() {
         ShoppingCartPage shoppingCartPage = TestPreconditions.prepareCartWithTwoItems(driver);

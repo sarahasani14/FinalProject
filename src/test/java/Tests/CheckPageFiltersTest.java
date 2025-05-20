@@ -7,7 +7,7 @@ import Pages.MyAccountPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class T5_CheckPageFilters extends BaseTest {
+public class CheckPageFiltersTest extends BaseTest {
 
     @Test
     public void testBorderColorAndChangeCriteria(){

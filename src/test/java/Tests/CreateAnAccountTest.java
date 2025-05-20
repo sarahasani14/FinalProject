@@ -6,7 +6,7 @@ import Pages.RegisterPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class T1_CreateAnAccount extends BaseTest {
+public class CreateAnAccountTest extends BaseTest {
     @Test
     public void createNewAccount() {
 

@@ -7,7 +7,7 @@ import Pages.WomenPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class T3_CheckHoverStyle extends BaseTest {
+public class CheckHoverStyleTest extends BaseTest {
 
     @Test
     public void testHoverEffect(){

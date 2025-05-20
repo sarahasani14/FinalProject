@@ -4,10 +4,10 @@ import Base.BaseTest;
 import Pages.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utilities.WaitUtility;
 
 
-public class T6_CheckSorting extends BaseTest {
+
+public class CheckSortingTest extends BaseTest {
 
     @Test
     public void checkSortingAndWishListCount() {

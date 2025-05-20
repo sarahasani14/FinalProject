@@ -7,7 +7,7 @@ import Preconditions.TestPreconditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class T7_ShoppingCart extends BaseTest {
+public class ShoppingCartTest extends BaseTest {
 
     @Test
     public void addItemsToShoppingCart(){
