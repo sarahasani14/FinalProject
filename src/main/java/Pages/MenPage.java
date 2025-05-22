@@ -16,22 +16,22 @@ public class MenPage extends BasePage {
         super(driver);
     }
 
-    private By blackColorOption = By.xpath("//img[@title='Black']");
+
     private By productCard = By.xpath("//li[@class='item last']");
-    private By selectedBlackColor = By.xpath("//li[@class='option-black is-media filter-match selected']//a[@class='swatch-link swatch-link-92 has-image']");
-    private By priceRange = By.xpath("(//dd[@class='even']//a)[1] ");
+    private By selectedColor = By.xpath("//li[@class='option-black is-media filter-match selected']//a[@class='swatch-link swatch-link-92 has-image']");
     private By productPrices = By.xpath("//span[@class='regular-price']");
 
 
-    public void clickBlackColor() {
-        scrollToElementJS(blackColorOption);
-        click(blackColorOption);
-        WaitUtility.explicitWaitUntilVisible(10, productCard);
+    public void selectColor(String colorName) {
+        By colorLocator = By.xpath("//img[@alt='" + colorName + "']");
+        WebElement colorElement = driver.findElement(colorLocator);
+        scrollToElementJS(colorElement);
+        colorElement.click();
     }
 
 
     public boolean selectedColorsHaveBlueBorders() {
-        List<WebElement> selectedColors = findAll(selectedBlackColor);
+        List<WebElement> selectedColors = findAll(selectedColor);
         for (int i = 0; i < selectedColors.size(); i++) {
             WebElement color = selectedColors.get(i);
             scrollToElementJS(color);
@@ -43,10 +43,12 @@ public class MenPage extends BasePage {
             return true;
     }
 
-    public void clickPriceRange(){
-        click(priceRange);
-        WaitUtility.explicitWaitUntilVisible(10, productCard);
+    public void selectPriceRange(String priceRange) {
+        By priceLocator = By.xpath("//dd[@class='even']//a[contains(@href, 'price=" + priceRange + "')]");
+        WebElement priceFilter = driver.findElement(priceLocator);
+        priceFilter.click();
     }
+
 
     public int getNumberOfDisplayedProducts(){
         scrollToElementJS(productCard);

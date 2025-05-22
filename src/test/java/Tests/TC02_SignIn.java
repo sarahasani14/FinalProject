@@ -5,7 +5,7 @@ import Pages.MyAccountPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SignInTest extends BaseTest {
+public class TC02_SignIn extends BaseTest {
 
 
     @Test

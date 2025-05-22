@@ -7,7 +7,7 @@ import Pages.SalePage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class CheckSaleProductsStyleTest extends BaseTest {
+public class TC04_CheckSaleProductsStyle extends BaseTest {
 
     @Test
     public void testProductsStyle(){

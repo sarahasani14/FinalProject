@@ -63,12 +63,13 @@ public class ShoppingCartPage extends BasePage {
     }
 
 
-    public void clickDeleteFirstItem() {
-        List<WebElement> deleteButtons = findAll(deleteButton);  // `deleteButton` locator për butonat delete
+    public void removeFirstCartItem() {
+        List<WebElement> deleteButtons = findAll(deleteButton);
         if (!deleteButtons.isEmpty()) {
             deleteButtons.get(0).click();
+            waitForCartItemsCountToBe(deleteButtons.size() - 1);
         } else {
-            throw new RuntimeException("No delete buttons found - cart may be empty");
+            throw new RuntimeException("No items to delete.");
         }
     }
 
@@ -78,9 +79,8 @@ public class ShoppingCartPage extends BasePage {
     }
 
 
-
-
-    public boolean isShoppingCartEmpty(){
+    public boolean isShoppingCartEmpty() {
         return find(emptyShoppingCartMessage).isDisplayed();
     }
 }
+

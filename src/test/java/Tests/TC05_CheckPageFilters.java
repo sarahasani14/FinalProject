@@ -7,7 +7,7 @@ import Pages.MyAccountPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class CheckPageFiltersTest extends BaseTest {
+public class TC05_CheckPageFilters extends BaseTest {
 
     @Test
     public void testBorderColorAndChangeCriteria(){
@@ -17,10 +17,10 @@ public class CheckPageFiltersTest extends BaseTest {
 
         myAccountPage.hoverOverMenMenu();
         MenPage menPage = myAccountPage.clickAllMenMenu();
-        menPage.clickBlackColor();
+        menPage.selectColor("Black");
         Assert.assertTrue(menPage.selectedColorsHaveBlueBorders(), "Selected color does not have blue border");
 
-        menPage.clickPriceRange();
+        menPage.selectPriceRange("70-");
         int actualDisplayedItems = menPage.getNumberOfDisplayedProducts();
         int expectedDisplayedItems = 3;
         Assert.assertEquals(actualDisplayedItems, expectedDisplayedItems, "actual and expected do not match");

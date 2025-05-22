@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 
 
-public class CheckSortingTest extends BaseTest {
+public class TC06_CheckSorting extends BaseTest {
 
     @Test
     public void checkSortingAndWishListCount() {
@@ -22,8 +22,7 @@ public class CheckSortingTest extends BaseTest {
         Assert.assertTrue(womenPage.areProductsSortedByPrice(), "Products are not sorted by Price");
 
 
-        WishListPage wishListPage = womenPage.addProductToWishList(0);
-        wishListPage.clickWomenMenu();
+        womenPage.addProductToWishList(0);
         womenPage.addProductToWishList(1);
 
 

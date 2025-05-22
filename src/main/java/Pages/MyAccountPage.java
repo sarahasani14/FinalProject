@@ -30,9 +30,11 @@ public class MyAccountPage extends BasePage {
 
     }
 
+
     public void hoverOverWomenMenu(){
       actions.moveToElement(find(womenMenu)).perform();
     }
+
 
     public WomenPage clickAllWomenCategory(){
         click(viewAllWomenCategory);
@@ -44,10 +46,12 @@ public class MyAccountPage extends BasePage {
         actions.moveToElement(find(saleMenu)).perform();
     }
 
+
     public SalePage clickAllSaleMenu(){
         click(viewAllSaleMenu);
         return new SalePage(driver);
     }
+
 
     public void hoverOverMenMenu(){
         actions.moveToElement(find(menMenu)).perform();

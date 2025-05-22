@@ -24,7 +24,7 @@ public class BasePage {
         return driver.findElement(locator);
     }
 
-    public List<WebElement> findAll(By locator) {
+    protected List<WebElement> findAll(By locator) {
         return driver.findElements(locator);
     }
 
@@ -38,12 +38,12 @@ public class BasePage {
     }
 
     public void closeConsentModalIfPresent() {
-        List<WebElement> optInElements = driver.findElements(optInButton);
+        List<WebElement> optInElements = findAll(optInButton);
         if (!optInElements.isEmpty()) {
             WebElement optIn = optInElements.get(0);
             optIn.click();
 
-            WebElement submit = driver.findElement(submitButton);
+            WebElement submit = find(submitButton);
             submit.click();
         }
     }

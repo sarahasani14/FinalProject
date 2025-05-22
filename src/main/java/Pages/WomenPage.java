@@ -20,11 +20,12 @@ public class WomenPage extends BasePage {
         super(driver);
     }
 
-    private By productCard = By.xpath("//li[@class='item last']");
+//    private By productCard = By.xpath("//li[@class='item last']");
     private By product = By.xpath("//li[@class='item last']//a[@class='product-image']");
     private By selectDropDown = By.xpath("(//select[@title='Sort By'])[1]");
     private By productPrice = By.xpath("//li[@class='item last']//span[@class='price']");
     private By addToWishListLink = By.xpath("//ul[@class='add-to-links']//a[@class='link-wishlist']");
+    private By continueShoppingButton = By.linkText("here");
 
 
 
@@ -42,7 +43,7 @@ public class WomenPage extends BasePage {
     public void selectPriceDropdown(int index){
         scrollToElementJS(selectDropDown);
         selectByIndex(selectDropDown, index);
-        WaitUtility.explicitWaitUntilVisible(5, productCard);
+        WaitUtility.explicitWaitUntilVisible(5, product);
     }
 
 
@@ -72,12 +73,13 @@ public class WomenPage extends BasePage {
 
     }
 
-    public WishListPage addProductToWishList(int productIndex) {
+    public void addProductToWishList(int productIndex) {
         List<WebElement> wishListLinks = findAll(addToWishListLink);
         WebElement product = wishListLinks.get(productIndex);
         scrollToElementJS(product);
         product.click();
-        return new WishListPage(driver);
+        click(continueShoppingButton);
+
     }
 
 }
