@@ -20,7 +20,7 @@ public class WomenPage extends BasePage {
         super(driver);
     }
 
-//    private By productCard = By.xpath("//li[@class='item last']");
+
     private By product = By.xpath("//li[@class='item last']//a[@class='product-image']");
     private By selectDropDown = By.xpath("(//select[@title='Sort By'])[1]");
     private By productPrice = By.xpath("//li[@class='item last']//span[@class='price']");
