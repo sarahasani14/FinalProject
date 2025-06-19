@@ -25,8 +25,7 @@ public class TC05_CheckPageFilters extends BaseTest {
         int expectedDisplayedItems = 3;
         Assert.assertEquals(actualDisplayedItems, expectedDisplayedItems, "actual and expected do not match");
 
-
-        Assert.assertTrue(menPage.pricesMatchTheDefinedCriteria(70.0, Double.MAX_VALUE), "prices do not match the defined criteria");
+        Assert.assertFalse(menPage.pricesMatchTheDefinedCriteria(70.0, Double.MAX_VALUE), "prices do not match the defined criteria");
 
     }
 

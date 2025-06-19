@@ -18,7 +18,7 @@ public class TC01_CreateAnAccount extends BaseTest {
         Assert.assertEquals(actualHeader, expectedHeader, "\n Actual and Expected do not match \n");
 
 
-        registerPage.enterRegisterDetails("Sara", "Hasani", "sara.test@example.com", "sara123!");
+        registerPage.enterRegisterDetails("Sara", "Hasani", "sara.test2@example.com", "sara123!");
         MyAccountPage myAccountPage = registerPage.clickRegisterButton();
 
 
