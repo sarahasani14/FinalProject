@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-15T20:45:07 CEST" name="SuiteExample" finished-at="2025-06-15T20:47:42 CEST" duration-ms="155221">
+    <groups>
+    </groups>
+    <test started-at="2025-06-15T20:45:07 CEST" name="TestExample" finished-at="2025-06-15T20:47:42 CEST" duration-ms="155221">
+      <class name="Tests.TC07_ShoppingCart">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC07_ShoppingCart@6a78afa0]" started-at="2025-06-15T20:46:50 CEST" name="setUp" finished-at="2025-06-15T20:46:53 CEST" duration-ms="2377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadApplication()[pri:0, instance:Tests.TC07_ShoppingCart@6a78afa0]" started-at="2025-06-15T20:46:53 CEST" name="loadApplication" finished-at="2025-06-15T20:46:55 CEST" duration-ms="2570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApplication -->
+        <test-method signature="addItemsToShoppingCart()[pri:0, instance:Tests.TC07_ShoppingCart@6a78afa0]" started-at="2025-06-15T20:46:55 CEST" name="addItemsToShoppingCart" finished-at="2025-06-15T20:47:18 CEST" duration-ms="22568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToShoppingCart -->
+        <test-method is-config="true" signature="takeFailedResultScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.TC07_ShoppingCart@6a78afa0]" started-at="2025-06-15T20:47:18 CEST" name="takeFailedResultScreenshot" finished-at="2025-06-15T20:47:18 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addItemsToShoppingCart status=SUCCESS method=TC07_ShoppingCart.addItemsToShoppingCart()[pri:0, instance:Tests.TC07_ShoppingCart@6a78afa0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailedResultScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TC07_ShoppingCart@6a78afa0]" started-at="2025-06-15T20:47:18 CEST" name="tearDown" finished-at="2025-06-15T20:47:18 CEST" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.TC07_ShoppingCart -->
+      <class name="Tests.TC06_CheckSorting">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC06_CheckSorting@45752059]" started-at="2025-06-15T20:46:25 CEST" name="setUp" finished-at="2025-06-15T20:46:27 CEST" duration-ms="2155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadApplication()[pri:0, instance:Tests.TC06_CheckSorting@45752059]" started-at="2025-06-15T20:46:27 CEST" name="loadApplication" finished-at="2025-06-15T20:46:30 CEST" duration-ms="2507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApplication -->
+        <test-method signature="checkSortingAndWishListCount()[pri:0, instance:Tests.TC06_CheckSorting@45752059]" started-at="2025-06-15T20:46:30 CEST" name="checkSortingAndWishListCount" finished-at="2025-06-15T20:46:50 CEST" duration-ms="19817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSortingAndWishListCount -->
+        <test-method is-config="true" signature="takeFailedResultScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.TC06_CheckSorting@45752059]" started-at="2025-06-15T20:46:50 CEST" name="takeFailedResultScreenshot" finished-at="2025-06-15T20:46:50 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkSortingAndWishListCount status=SUCCESS method=TC06_CheckSorting.checkSortingAndWishListCount()[pri:0, instance:Tests.TC06_CheckSorting@45752059] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailedResultScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TC06_CheckSorting@45752059]" started-at="2025-06-15T20:46:50 CEST" name="tearDown" finished-at="2025-06-15T20:46:50 CEST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.TC06_CheckSorting -->
+      <class name="Tests.TC01_CreateAnAccount">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC01_CreateAnAccount@7f3b84b8]" started-at="2025-06-15T20:45:07 CEST" name="setUp" finished-at="2025-06-15T20:45:13 CEST" duration-ms="5532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadApplication()[pri:0, instance:Tests.TC01_CreateAnAccount@7f3b84b8]" started-at="2025-06-15T20:45:13 CEST" name="loadApplication" finished-at="2025-06-15T20:45:16 CEST" duration-ms="3393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApplication -->
+        <test-method signature="createNewAccount()[pri:0, instance:Tests.TC01_CreateAnAccount@7f3b84b8]" started-at="2025-06-15T20:45:16 CEST" name="createNewAccount" finished-at="2025-06-15T20:45:24 CEST" duration-ms="7817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method is-config="true" signature="takeFailedResultScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.TC01_CreateAnAccount@7f3b84b8]" started-at="2025-06-15T20:45:24 CEST" name="takeFailedResultScreenshot" finished-at="2025-06-15T20:45:24 CEST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewAccount status=SUCCESS method=TC01_CreateAnAccount.createNewAccount()[pri:0, instance:Tests.TC01_CreateAnAccount@7f3b84b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailedResultScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TC01_CreateAnAccount@7f3b84b8]" started-at="2025-06-15T20:45:24 CEST" name="tearDown" finished-at="2025-06-15T20:45:25 CEST" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.TC01_CreateAnAccount -->
+      <class name="Tests.TC04_CheckSaleProductsStyle">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC04_CheckSaleProductsStyle@77888435]" started-at="2025-06-15T20:45:54 CEST" name="setUp" finished-at="2025-06-15T20:45:57 CEST" duration-ms="2163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadApplication()[pri:0, instance:Tests.TC04_CheckSaleProductsStyle@77888435]" started-at="2025-06-15T20:45:57 CEST" name="loadApplication" finished-at="2025-06-15T20:45:59 CEST" duration-ms="2569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApplication -->
+        <test-method signature="testProductsStyle()[pri:0, instance:Tests.TC04_CheckSaleProductsStyle@77888435]" started-at="2025-06-15T20:45:59 CEST" name="testProductsStyle" finished-at="2025-06-15T20:46:08 CEST" duration-ms="8400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductsStyle -->
+        <test-method is-config="true" signature="takeFailedResultScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.TC04_CheckSaleProductsStyle@77888435]" started-at="2025-06-15T20:46:08 CEST" name="takeFailedResultScreenshot" finished-at="2025-06-15T20:46:08 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductsStyle status=SUCCESS method=TC04_CheckSaleProductsStyle.testProductsStyle()[pri:0, instance:Tests.TC04_CheckSaleProductsStyle@77888435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailedResultScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TC04_CheckSaleProductsStyle@77888435]" started-at="2025-06-15T20:46:08 CEST" name="tearDown" finished-at="2025-06-15T20:46:08 CEST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.TC04_CheckSaleProductsStyle -->
+      <class name="Tests.TC03_CheckHoverStyle">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC03_CheckHoverStyle@31304f14]" started-at="2025-06-15T20:45:40 CEST" name="setUp" finished-at="2025-06-15T20:45:43 CEST" duration-ms="3067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadApplication()[pri:0, instance:Tests.TC03_CheckHoverStyle@31304f14]" started-at="2025-06-15T20:45:43 CEST" name="loadApplication" finished-at="2025-06-15T20:45:45 CEST" duration-ms="2744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApplication -->
+        <test-method signature="testHoverEffect()[pri:0, instance:Tests.TC03_CheckHoverStyle@31304f14]" started-at="2025-06-15T20:45:45 CEST" name="testHoverEffect" finished-at="2025-06-15T20:45:54 CEST" duration-ms="8582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverEffect -->
+        <test-method is-config="true" signature="takeFailedResultScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.TC03_CheckHoverStyle@31304f14]" started-at="2025-06-15T20:45:54 CEST" name="takeFailedResultScreenshot" finished-at="2025-06-15T20:45:54 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHoverEffect status=SUCCESS method=TC03_CheckHoverStyle.testHoverEffect()[pri:0, instance:Tests.TC03_CheckHoverStyle@31304f14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailedResultScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TC03_CheckHoverStyle@31304f14]" started-at="2025-06-15T20:45:54 CEST" name="tearDown" finished-at="2025-06-15T20:45:54 CEST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.TC03_CheckHoverStyle -->
+      <class name="Tests.TC08_EmptyShoppingCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC08_EmptyShoppingCartTest@9d5509a]" started-at="2025-06-15T20:47:18 CEST" name="setUp" finished-at="2025-06-15T20:47:20 CEST" duration-ms="2109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadApplication()[pri:0, instance:Tests.TC08_EmptyShoppingCartTest@9d5509a]" started-at="2025-06-15T20:47:20 CEST" name="loadApplication" finished-at="2025-06-15T20:47:23 CEST" duration-ms="2583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApplication -->
+        <test-method signature="emptyShoppingCartTest()[pri:0, instance:Tests.TC08_EmptyShoppingCartTest@9d5509a]" started-at="2025-06-15T20:47:23 CEST" name="emptyShoppingCartTest" finished-at="2025-06-15T20:47:42 CEST" duration-ms="18769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyShoppingCartTest -->
+        <test-method is-config="true" signature="takeFailedResultScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.TC08_EmptyShoppingCartTest@9d5509a]" started-at="2025-06-15T20:47:42 CEST" name="takeFailedResultScreenshot" finished-at="2025-06-15T20:47:42 CEST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyShoppingCartTest status=SUCCESS method=TC08_EmptyShoppingCartTest.emptyShoppingCartTest()[pri:0, instance:Tests.TC08_EmptyShoppingCartTest@9d5509a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailedResultScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TC08_EmptyShoppingCartTest@9d5509a]" started-at="2025-06-15T20:47:42 CEST" name="tearDown" finished-at="2025-06-15T20:47:42 CEST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.TC08_EmptyShoppingCartTest -->
+      <class name="Tests.TC05_CheckPageFilters">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC05_CheckPageFilters@51399530]" started-at="2025-06-15T20:46:08 CEST" name="setUp" finished-at="2025-06-15T20:46:10 CEST" duration-ms="2149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadApplication()[pri:0, instance:Tests.TC05_CheckPageFilters@51399530]" started-at="2025-06-15T20:46:10 CEST" name="loadApplication" finished-at="2025-06-15T20:46:13 CEST" duration-ms="2470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApplication -->
+        <test-method signature="testBorderColorAndChangeCriteria()[pri:0, instance:Tests.TC05_CheckPageFilters@51399530]" started-at="2025-06-15T20:46:13 CEST" name="testBorderColorAndChangeCriteria" finished-at="2025-06-15T20:46:24 CEST" duration-ms="11719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorderColorAndChangeCriteria -->
+        <test-method is-config="true" signature="takeFailedResultScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.TC05_CheckPageFilters@51399530]" started-at="2025-06-15T20:46:24 CEST" name="takeFailedResultScreenshot" finished-at="2025-06-15T20:46:24 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBorderColorAndChangeCriteria status=SUCCESS method=TC05_CheckPageFilters.testBorderColorAndChangeCriteria()[pri:0, instance:Tests.TC05_CheckPageFilters@51399530] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailedResultScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TC05_CheckPageFilters@51399530]" started-at="2025-06-15T20:46:24 CEST" name="tearDown" finished-at="2025-06-15T20:46:25 CEST" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.TC05_CheckPageFilters -->
+      <class name="Tests.TC02_SignIn">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TC02_SignIn@42a48628]" started-at="2025-06-15T20:45:25 CEST" name="setUp" finished-at="2025-06-15T20:45:27 CEST" duration-ms="2360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadApplication()[pri:0, instance:Tests.TC02_SignIn@42a48628]" started-at="2025-06-15T20:45:27 CEST" name="loadApplication" finished-at="2025-06-15T20:45:30 CEST" duration-ms="2612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApplication -->
+        <test-method signature="signInWithCreatedAccount()[pri:0, instance:Tests.TC02_SignIn@42a48628]" started-at="2025-06-15T20:45:30 CEST" name="signInWithCreatedAccount" finished-at="2025-06-15T20:45:39 CEST" duration-ms="8842" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='Log Out']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d3bb68b9e72b7461d1561eed1375a32, findElement {using=xpath, value=//a[@title='Log Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49248}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49248/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d3bb68b9e72b7461d1561eed1375a32]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='Log Out']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d3bb68b9e72b7461d1561eed1375a32, findElement {using=xpath, value=//a[@title='Log Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49248}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49248/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d3bb68b9e72b7461d1561eed1375a32
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at Base.BasePage.find(BasePage.java:24)
+at Base.BasePage.click(BasePage.java:37)
+at Pages.HomePage.clickLogOutButton(HomePage.java:36)
+at Tests.TC02_SignIn.signInWithCreatedAccount(TC02_SignIn.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInWithCreatedAccount -->
+        <test-method is-config="true" signature="takeFailedResultScreenshot(org.testng.ITestResult)[pri:0, instance:Tests.TC02_SignIn@42a48628]" started-at="2025-06-15T20:45:39 CEST" name="takeFailedResultScreenshot" finished-at="2025-06-15T20:45:39 CEST" duration-ms="315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInWithCreatedAccount status=FAILURE method=TC02_SignIn.signInWithCreatedAccount()[pri:0, instance:Tests.TC02_SignIn@42a48628] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailedResultScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TC02_SignIn@42a48628]" started-at="2025-06-15T20:45:39 CEST" name="tearDown" finished-at="2025-06-15T20:45:40 CEST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.TC02_SignIn -->
+    </test> <!-- TestExample -->
+  </suite> <!-- SuiteExample -->
+</testng-results>
